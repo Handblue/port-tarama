@@ -7,7 +7,9 @@ Buradan Port lisesine bakarak port eklemesi yapabilirsiniz: https://en.wikipedia
 Bu örnekte, verilen bir host(google.com) adresi için belirli bir port listesi taranır. Taranırken, her port için bir socket oluşturulur ve connect_ex ile portun
 açık olup olmadığı kontrol edilir. Eğer bir port açıksa, tarama sonucu rapor edilir.
 
+ports = [21, 22, 23, 80, 443, 8080]   Yukarıdaki linkten burayı çoğaltabilirsiniz.
 
+scan_ports('google.com') Taranacak web sitesi buraya girilecek
 
 <br />
 📬 Find me 
